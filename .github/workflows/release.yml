@@ -20,7 +20,7 @@ jobs:
 
       - name: Clone project
         run: |
-          git clone https://${{ secrets.REPO_CLONE }}@github.com/10123IO/voiston-extension
+          git clone https://${{ secrets.REPO_CLONE }}@github.com/voiston-ai/voiston-extension
           
       - name: Build project
         run: |
